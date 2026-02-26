@@ -1,0 +1,140 @@
+/* FONT */
+body {
+  font-family: cursive, 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* WARNA UTAMA */
+.main-bg {
+  background-color: rgb(114, 2, 114);
+}
+
+.main-color {
+  background-color: rgb(114, 2, 114);
+  color: white;
+}
+
+/* BANNER (fix jadi satu aja, tidak double) */
+.banner {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('https://plus.unsplash.com/premium_photo-1733306588881-0411931d4fed?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+/* HOVER CARD (PROMO & PRODUK) */
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.05);
+}
+
+/* CARD PROMO */
+.card-promo {
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.card-promo:hover {
+  transform: scale(1.05);
+}
+
+/* SECTION PELAYANAN */
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+/* MENU FAVORIT */
+.menu-favorit {
+  background-color: rgb(243, 243, 243);
+}
+
+.menu-favorit-content {
+  transition: 0.3s;
+}
+
+.menu-favorit-content:hover {
+  transform: scale(1.05);
+}
+
+/* BACKGROUND SECTION */
+.testimony {
+  background: linear-gradient(to bottom, #7b007b, #5a005a);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* CARD */
+.testimony-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 25px;
+  height: 100%;
+  transition: 0.3s;
+  backdrop-filter: blur(6px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* HOVER EFFECT */
+.testimony-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* JUDUL */
+.testimony-card h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* NAMA AUTHOR */
+.author {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* BINTANG */
+.stars {
+  color: gold;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* ISI TESTIMONI */
+.testimony-card p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ICON KUTIPAN */
+.quote-icon {
+  font-size: 2rem;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #595959;
+  padding: 40px 0;
+}
+
+.footer .social-icon {
+  font-size: 1.6rem;
+  color:#fff;
+  transition: .3s;
+}
+
+.footer .social-icon:hover {
+  color: #ffc107;
+}
